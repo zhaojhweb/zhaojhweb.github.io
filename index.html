@@ -1,49 +1,20 @@
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>多种风格导航菜单 - xcLeigh</title>
-	<link href="images/favicon.png" rel="icon">
-	<link rel="stylesheet" type="text/css" href="css/mycss.css" />
+    <title>Multi-level Drop Down Menu</title>
 </head>
+<body>
 
-<body style="margin:auto;padding:auto; background-color:rgba(255,133,0,0.03);">
-	<div class="dicContent" style="width:100%; height:calc(100% - 76px); z-index:111; position:absolute; margin:0px;padding:0px; margin-top:46px;">
-        
-		<iframe  class="dicContent" id="iframeContent" src="template/右键功能菜单风格1/index.html" border="0" style="border:0px;width:100%;height:calc(100%); position: absolute; margin:0px;padding:0px;background-color: transparent !important;"></iframe>
-	</div>
-    <div style="position: absolute; bottom: 0px; text-align: center; width:100%; z-index: 999999;">
-        <span style="background-color: orange; padding: 4px 8px; display: block; color: white;">此处是演示，每个风格的代码独立，可以直接使用，这个页面是将所有代码关联起来，便于演示。有不懂的可以私信联系我。</span>
-    </div>
-    <div class="nav">
-		<span onclick="showUrl('https://blog.csdn.net/weixin_43151418/')">
-            <img src="images/favicon.png" style="width: 12px; height: 12px; padding-top: 12px;">
-            xcLeigh源码
-        </span>
-        <a href="javascript:void(0);" class="link" onclick="showContent('template/悬浮按钮菜单风格8/index.html',this)" style="border-right: 2px dashed orange;">风格8</a>
-        <a href="javascript:void(0);" class="link" onclick="showContent('template/悬浮按钮菜单风格7/index.html',this)">风格7</a>
-        <a href="javascript:void(0);" class="link" onclick="showContent('template/悬浮按钮菜单风格6/index.html',this)">风格6</a>
-        <a href="javascript:void(0);" class="link" onclick="showContent('template/悬浮按钮菜单风格5/index.html',this)">风格5</a>
-        <a href="javascript:void(0);" class="link" onclick="showContent('template/悬浮按钮菜单风格4/index.html',this)">风格4</a>
-        <a href="javascript:void(0);" class="link" onclick="showContent('template/悬浮按钮菜单风格3/index.html',this)">风格3</a>
-        <a href="javascript:void(0);" class="link" onclick="showContent('template/悬浮按钮菜单风格2/index.html',this)">风格2</a>
-        <a href="javascript:void(0);" class="link" onclick="showContent('template/悬浮按钮菜单风格1/index.html',this)">悬浮按钮菜单</a>
-        <a href="javascript:void(0);" class="link" onclick="showContent('template/顶部导航菜单风格6/index.html',this)" style="border-right: 2px dashed orange;">风格6</a>
-        <a href="javascript:void(0);" class="link" onclick="showContent('template/顶部导航菜单风格5/index.html',this)">风格5</a>
-        <a href="javascript:void(0);" class="link" onclick="showContent('template/顶部导航菜单风格4/index.html',this)">风格4</a>
-        <a href="javascript:void(0);" class="link" onclick="showContent('template/顶部导航菜单风格3/index.html',this)">风格3</a>
-        <a href="javascript:void(0);" class="link" onclick="showContent('template/顶部导航菜单风格2/index.html',this)">风格2</a>
-        <a href="javascript:void(0);" class="link" onclick="showContent('template/顶部导航菜单风格1/index.html',this)">顶部导航菜单</a>
-        <a href="javascript:void(0);" class="link" onclick="showContent('template/左侧导航菜单风格6/index.html',this)" style="border-right: 2px dashed orange;">风格6</a>
-        <a href="javascript:void(0);" class="link" onclick="showContent('template/左侧导航菜单风格5/index.html',this)">风格5</a>
-        <a href="javascript:void(0);" class="link" onclick="showContent('template/左侧导航菜单风格4/index.html',this)">风格4</a>
-        <a href="javascript:void(0);" class="link" onclick="showContent('template/左侧导航菜单风格3/index.html',this)">风格3</a>
-        <a href="javascript:void(0);" class="link" onclick="showContent('template/左侧导航菜单风格2/index.html',this)">风格2</a>
-        <a href="javascript:void(0);" class="link" onclick="showContent('template/左侧导航菜单风格1/index.html',this)">左侧导航菜单</a>
-        <a href="javascript:void(0);" class="link" onclick="showContent('template/右键功能菜单风格3/index.html',this)" style="border-right: 2px dashed orange;">风格3</a>
-        <a href="javascript:void(0);" class="link" onclick="showContent('template/右键功能菜单风格2/index.html',this)">风格2</a>
-        <a href="javascript:void(0);" class="link active" onclick="showContent('template/右键功能菜单风格1/index.html',this)" style="border-left: 2px dashed orange;">右键功能菜单</a>
-    </div>
+<select>
+    <optgroup label="Group 1">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+    </optgroup>
+    <optgroup label="Group 2">
+        <option value="option3">Option 3</option>
+        <option value="option4">Option 4</option>
+    </optgroup>
+</select>
+
 </body>
-<script type="text/javascript"  src="js/myscript.js"></script>
 </html>
-
