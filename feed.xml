@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>zhaojhweb</title>
+    <link href="https://zhaojhweb.github.io/feed.xml" rel="self" />
+    <link href="https://zhaojhweb.github.io" />
+    <updated>2024-11-20T14:26:24+08:00</updated>
+    <author>
+        <name>zhaojunheng</name>
+    </author>
+    <id>https://zhaojhweb.github.io</id>
+
+    <entry>
+        <title>welcome</title>
+        <author>
+            <name>zhaojunheng</name>
+        </author>
+        <link href="https://zhaojhweb.github.io/welcome.html"/>
+        <id>https://zhaojhweb.github.io/welcome.html</id>
+
+        <updated>2024-11-20T11:45:33+08:00</updated>
+            <summary>
+                <![CDATA[
+                    Hello
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Hello</p>
+            ]]>
+        </content>
+    </entry>
+</feed>
